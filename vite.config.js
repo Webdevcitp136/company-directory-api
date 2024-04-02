@@ -4,6 +4,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/company-directory-api/',
   plugins: [vue()],
   resolve: {
     alias: {
@@ -11,3 +12,4 @@ export default defineConfig({
     },
   },
 })
+
